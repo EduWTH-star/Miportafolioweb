@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+
+        <title>Mi portafolio web</title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+<body>
+    <header>
+        <h2 class="foto">Mi portafolio web (TSU)</h2>
+
+        <nav>
+            <a href="#start">Inicio</a>
+             <a href="#About-me">Sobre mi</a>
+              <a href="#Habilitys">Mis habilidades de desarrollador</a>
+               <a href="#Projects">Proyectos</a>
+                <a href="#contact">Contactame</a>
+        </nav>
+    </header>   
+
+    <section id="start" class="start">
+        <div class="Presentation">
+            <h1>Hola soy <span>Eduardo</span></h1>
+
+            <h3>Estudiante de desarrollo y gestion de software</h3>
+
+            <p>Me gustan las computadoras, videojuegos y cosas relacionadas con la 
+                tecnologia, entre a esta carrera para desarrollar y programar mis juegos
+                aplicaciones etc, sigo aprendiendo y me gustaria poder seguir aprendiendo.
+            </p>
+
+            <a href="#Projects" class="boton">Ver mis proyectos</a>
+
+        </div>
+
+        <div class="photo">
+            <img src="img/perfil.jpeg" alt="Perfil foto">
+        </div>
+    </section>
+
+    <section id="About-me">
+            <h2>Sobre mi</h2>
+
+            <p class="Description">
+                Soy estudiante de desarrollo y gestion de software,
+                me gusta programar, aprender y descubrir cosas nuevas,
+                me gusta diseñar interfacez, programar eventos, hacer bases de datos
+                tener projectos para seguir aprendiendo y otras cosas.
+            </p>
+    </section>
+
+    <section id="Habilitys">
+        <h2>Lo que estoy aprendiendo</h2>
+
+        <div class="contenedor">
+            <div class="tarjeta">
+                <h3>HTML</h3>
+                <p>Para crear y desarrollar y estructurar paginas web</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>CSS</h3>
+                <p>Para darle estilo unico y dinamico a las paginas web</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>Javascript</h3>
+                <p>Para agregar funciones interactivas</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>C#</h3>
+                <p>Para diseñar programas y aplicaciones</p>
+            </div>
+
+            <div class="tarjeta">
+                <h3>NETMAUI</h3>
+                <p>Para desarrollar aplicaciones moviles</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="Projects">
+        <h2>Mis proyectos como desarrollador</h2>
+
+        <div class="contenedor">
+            <div class="proyectos">
+                <h3>Ferremat quetcheplus</h3>
+                <p>Una pagina diseñada con html, css y Javascript para una ferreteria real existente en
+                    el pueblo de Quetchehueca, puedes ver productos, herramientas
+                    puedes encargar productos y contactar con ellos.
+                </p>
+                <small>HTML, CSS Y JAVASCRIPT</small>
+                <img src="img/Ferremat.png" alt="presentacion">
+                <img src="img/indexferremat.png" alt="codigo de la pagina">
+            </div>
+            
+            <div class="proyectos">
+                <h3>Calculadora IMC</h3>
+                <p>Calculadora hecha en NETMAUI para calcular el indice de masa corporal del cuerpo</p>
+                <small>NETMAUI</small>
+                <img src="img/Codeimc.png" alt="codigoimc">
+                <img src="img/IMC.PNG" alt="pantallaimc">
+            </div>
+
+            <div class="proyectos">
+                <h3>Sistema de medicamentos</h3>
+                <p>Sistema inteligente de gestion de medicamentos de una farmacia</p>
+                <small>C# y SQL</small>
+                <a href="https://github.com/joanesparza656/SistemaMedicamentos.git">Link del repositorio</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactame</h2>
+        <p class="Description">Si gustas ponerte en contacto conmigo puedes enviarme mensaje</p>
+
+      <form id="formulario" action="#" method="post">
+            <label for="nombre">Tu nombre</label>
+            <input type="text" id="nombre" name="nombre"
+                   placeholder="Escribe tu nombre" required>
+
+            <label for="correo">Tu correo</label>
+            <input type="email" id="correo" name="correo"
+                   placeholder="ejemplo@correo.com" required>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5"
+                      placeholder="Escribe tu mensaje aqui..."
+                      required></textarea>
+
+            <button type="submit">Enviar mensaje</button>
+
+            <p id="respuesta"></p>
+        </form>
+    </section>
+
+    <footer>
+        Mi portafolio de estudiante TSU | Hecho por Eduardo Valenzuela
+
+        <div class="redes">
+            <a href="https://github.com/EduWTH-star">Github</a>
+            <a href="https://www.instagram.com/eduardo__vzla/?hl=en">Instagram</a>
+            <a href="https://discord.com/users/959244630195568651">Discord</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
